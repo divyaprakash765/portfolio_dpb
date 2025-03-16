@@ -15,7 +15,7 @@ function Home() {
           <div className="bg-[#EAB751] rounded-md">
           <h6 className="font-semibold px-2 text-lg">UI/UX Developer / Backend Developer / Problem Solver</h6>
           </div>
-          <p className="text-[17px] my-3">Passionate Fullstack Developer with a strong foundation in both frontend and backend technologies. I specialize in building dynamic and responsive web applications that provide seamless user experiences.
+          <p className="text-[17px] my-3">Passionate Fullstack Developer with a strong foundation in both frontend and backend technologies.
 With a deep interest in problem-solving, I enjoy tackling complex coding challenges and continuously improving my skills in algorithms and data structures. My expertise spans across modern frameworks like React, Node.js, and Express, along with database management using SQL and MongoDB.
 </p>
 <NavLink to = "/about">

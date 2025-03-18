@@ -22,7 +22,7 @@ function SideNav(){
         </NavLink>
         <div className="w-2 h-2 bg-black rounded-full my-3"></div>
       
-        <NavLink to="/portfolio" className={`font-semibold text-xl relative bg-[#EAB751] px-2 ${location.pathname === "/portfolio" ? "text-white" : "text-black"}`}>
+        <NavLink to="/portfolio" className={`font-semibold text-xl relative bg-[#EAB751] px-2 ${location.pathname === "/portfolio" || location.pathname === "/portfolio/all" || location.pathname === "/portfolio/web_design" || location.pathname === "/portfolio/dsa" ? "text-white" : "text-black"}`}>
           PORTFOLIO
         </NavLink>
         <div className="w-2 h-2 bg-black rounded-full my-3"></div>

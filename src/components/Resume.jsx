@@ -8,7 +8,7 @@ function Resume(){
 
     return(
        <div className="w-full h-[100vh] bg-[#B8B8B8] text-black flex">
-        <div className="left-side w-[16%] bg-[#EAB751] h-screen">
+        <div className="left-side w-[17%] bg-[#EAB751] h-screen">
         <img src="public/portfolio_web_img.png" className="w-[35vh] h-[32vh] rounded-md" />
        <SideNav />
         </div>
@@ -39,19 +39,19 @@ function Resume(){
         {/* PROJECTS */}
         <div className="ml-32">
         <h1 className="uppercase text-3xl font-[650] mt-2">projects</h1>
-        <div className="mt-2 flex gap-36">
-        <div className="w-[24%]">
+        <div className="mt-2 flex gap-32">
+        <div className="w-[30%]">
         <h3 className="font-semibold bg-[#EAB751] px-2 text-zinc-700 py-1 text-center rounded-md uppercase text-xl w-[28vh]">movie app</h3>
         <button   onClick={() => {
     window.open("https://movie-app-jet-nine.vercel.app/", "_blank");
-  }} className="font-semibold text-xl hover:text-zinc-200 bg-orange-400 w-[24vh] rounded-full cursor-pointer px-3 mt-2 ml-2 text-zinc-800 ">View App<i className="ri-link"></i></button>
+  }} className="font-semibold text-xl hover:text-zinc-100 hover:bg-orange-700 ease-in-out duration-300 bg-orange-400 w-[24vh] rounded-full cursor-pointer px-3 mt-2 ml-2 text-zinc-800 ">View App<i className="ri-link"></i></button>
         <p className="ml-2 mt-2">A web application that helps users discover movies and TV shows using the TMDB API. Features include search, trending lists, and trailer previews for an enhanced browsing experience.</p>
         </div>
-        <div className="w-[24%]">
+        <div className="w-[30%]">
         <h3 className="font-semibold bg-[#EAB751] px-2 text-zinc-700 py-1 text-center rounded-md uppercase text-xl w-[28vh]">Dev recruit</h3>
         <button   onClick={() => {
     window.open("https://work-seeker-mum4v0606-divya-prakashs-projects-e10cec7b.vercel.app/", "_blank");
-  }} className="font-semibold text-xl hover:text-zinc-200 bg-orange-400 w-[24vh] rounded-full cursor-pointer px-3 mt-2 ml-2 text-zinc-800 ">View App<i className="ri-link"></i></button>
+  }} className="font-semibold text-xl hover:text-zinc-100 hover:bg-orange-700 ease-in-out duration-300 bg-orange-400 w-[24vh] rounded-full cursor-pointer px-3 mt-2 ml-2 text-zinc-800 ">View App<i className="ri-link"></i></button>
       <p className="ml-2">A platform designed to connect developers with job opportunities. It features job listings, resume uploads, and an intuitive UI to streamline the hiring process for both recruiters and candidates.</p>
         </div>
         </div>

@@ -6,6 +6,9 @@ import Portfolio from "./components/portfolio"
 import Resume from "./components/Resume"
 import Testimonials from "./components/testimonial"
 import { Route,Routes } from "react-router-dom";
+import All from "./template/All"
+import Dsa from "./template/Dsa"
+import Web_design from "./template/web_design"
 
 function App(){
   return(
@@ -16,7 +19,11 @@ function App(){
       <Route path = "/about" element = {<About/>}/>
       <Route path = "/resume" element = {<Resume/>}/>
       <Route path = "/contact" element = {<Contact/>}/>
-      <Route path = "/portfolio" element = {<Portfolio/>}/>
+      <Route path = "/portfolio" element = {<Portfolio/>}>
+      <Route index element = {<All/>} />
+      <Route path = "web_design" element = {<Web_design/>} />
+      <Route path = "dsa" element = {<Dsa/>} />
+      </Route>
       <Route path = "/testimonials" element = {<Testimonials/>}/>
 
       </Routes>

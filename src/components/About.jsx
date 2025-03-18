@@ -6,7 +6,7 @@ function About(){
     return(
        <div className="w-full h-[100vh] bg-[#B8B8B8] text-black flex">
         
-        <div className="left-side w-[16%] bg-[#EAB751] h-screen">
+        <div className="left-side w-[16.5%] bg-[#EAB751] h-screen">
         <img src="public/portfolio_web_img.png" className="w-[35vh] h-[32vh] rounded-md" />
        <SideNav />
         </div>
@@ -35,11 +35,13 @@ With a deep interest in problem-solving, I enjoy tackling complex coding challen
 </div>
 
 </div>
+<div className="ml-20">
 <Nav />
+</div>
     </div>
     <div className="h-[35vh] w-[65vh] bg-black ml-60 relative bottom-[38vh] relative flex flex-col">
         <h1 className="text-[#EAB751] text-3xl relative left-20 top-7">500+</h1>
-        <h4 className="text-white text-md relative left-20 top-6">Problem solved <br /><h4 className="relative bottom-2">on DSA</h4></h4>
+        <h4 className="text-white text-md relative left-20 top-6">Problem solved <br /><h4 className="relative bottom-2">on Leetcode</h4></h4>
         <h1 className="text-[#EAB751] text-3xl relative left-[42vh] bottom-[7.5vh]">1700+</h1>
         <h4 className="text-white text-md relative left-[43vh] bottom-[8vh]">Rating on<br /><h4 className="relative bottom-2"> Leetcode</h4></h4>
         <h1 className="text-[#EAB751] text-3xl relative left-20 bottom-[3vh]">2⭐</h1>

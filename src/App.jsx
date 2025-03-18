@@ -12,7 +12,7 @@ import Web_design from "./template/web_design"
 
 function App(){
   return(
-    <div className="w-full min-h-screen bg-[#B8B8B8] text-white">
+    <div className="w-full min-h-screen bg-[#D8B8B8] text-white">
      <Routes>
 
       <Route path = "/" element = {<Home/>}/>

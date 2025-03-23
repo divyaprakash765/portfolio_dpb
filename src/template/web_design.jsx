@@ -24,7 +24,7 @@ function Web_design() {
         <div
           className="bg-white w-[60vh] h-[40vh] rounded-md cursor-pointer transform transition-transform duration-300 hover:scale-110 shadow-lg"
           onClick={() => {
-            window.open("https://movie-app-jet-nine.vercel.app/", "_blank");
+            window.open("https://work-seeker.vercel.app/", "_blank");
           }}
         >
           <img

@@ -21,7 +21,7 @@ function All(){
   }} src="https://plus.unsplash.com/premium_photo-1720610706902-f92d98fb8b35?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bW92aWUlMjBhcHBzfGVufDB8fDB8fHww" 
   className="w-[35vh] h-[20vh] rounded-md cursor-pointer transform transition-transform duration-300 hover:scale-110" />
   <img onClick={() => {
-    window.open("https://movie-app-jet-nine.vercel.app/", "_blank");
+    window.open("https://work-seeker.vercel.app/", "_blank");
   }} src="https://kwebdesign.in/wp-content/uploads/2020/04/Job-Portal-Website-in-Guwahati-.jpg" 
   className="w-[35vh] h-[20vh] rounded-md cursor-pointer transform transition-transform duration-300 hover:scale-110" />
         </div>

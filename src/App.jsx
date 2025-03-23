@@ -24,7 +24,6 @@ function App(){
       <Route path = "web_design" element = {<Web_design/>} />
       <Route path = "dsa" element = {<Dsa/>} />
       </Route>
-      <Route path = "/testimonials" element = {<Testimonials/>}/>
 
       </Routes>
     </div>

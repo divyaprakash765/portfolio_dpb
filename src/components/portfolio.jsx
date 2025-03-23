@@ -1,4 +1,5 @@
 import { NavLink, useLocation, Outlet } from "react-router-dom";
+import Nav from "../template/nav";
 import SideNav from "../template/Side_nav";
 
 function Portfolio(){
@@ -6,7 +7,7 @@ function Portfolio(){
     return(
         <div className="w-full h-[100vh] bg-[#B8B8B8] text-black flex">
             {/* Left Sidebar */}
-            <div className="left-side w-[16.5%] bg-[#EAB751] h-screen">
+            <div className="left-side w-[17%] bg-[#EAB751] h-screen">
                 <img src="public/portfolio_web_img.png" className="w-[35vh] h-[32vh] rounded-md" />
                 <SideNav />
             </div>
@@ -40,6 +41,9 @@ function Portfolio(){
                 <div className="mt-10 flex justify-center">
                     <Outlet />
                 </div>
+            </div>
+            <div className="mt-[22vh] mr-[5vh]">
+            <Nav/>
             </div>
         </div>
     )

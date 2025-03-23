@@ -6,22 +6,20 @@ function Nav() {
 
     return (
         <div className="ml-5 h-[50vh] w-[6vh] bg-[#EAB751] rounded-md py-5">
-            <NavLink to="/" className="mt-7">
+            <NavLink to="/" className="mt-10">
                 <i className={`ri-home-2-fill text-[3vh] ml-3 ${location.pathname === "/" ? "text-white" : "text-black"}`}></i>
             </NavLink>
-            <NavLink to="/about" className="block mt-7">
+            <NavLink to="/about" className="block mt-10">
                 <i className={`ri-user-6-fill text-[3vh] ml-3 ${location.pathname === "/about" ? "text-white" : "text-black"}`}></i>
             </NavLink>
-            <NavLink to="/resume" className="block mt-7">
+            <NavLink to="/resume" className="block mt-10">
                 <i className={`ri-briefcase-4-fill text-[3vh] ml-3 ${location.pathname === "/resume" ? "text-white" : "text-black"}`}></i>
             </NavLink>
-            <NavLink to="/portfolio" className="block mt-7">
+            <NavLink to="/portfolio" className="block mt-10">
                 <i className={`ri-tv-2-fill text-[3vh] ml-3 ${location.pathname === "/portfolio" ? "text-white" : "text-black"}`}></i>
             </NavLink>
-            <NavLink to="/testimonials" className="block mt-7">
-                <i className={`ri-megaphone-fill text-[3vh] ml-3 ${location.pathname === "/testimonials" ? "text-white" : "text-black"}`}></i>
-            </NavLink>
-            <NavLink to="/contact" className="block mt-7">
+            
+            <NavLink to="/contact" className="block mt-10">
                 <i className={`ri-send-plane-fill text-[3vh] ml-3 ${location.pathname === "/contact" ? "text-white" : "text-black"}`}></i>
             </NavLink>
         </div>

@@ -4,7 +4,7 @@ import Nav from "../template/nav.jsx";
 function About(){
 
     return(
-       <div className="w-full h-[100vh] bg-[#B8B8B8] text-black flex">
+       <div className="w-full h-[100vh] bg-zinc-200 text-black flex">
         
         <div className="left-side w-[16.5%] bg-[#EAB751] h-screen">
         <img src="portfolio_web_img.png" className="w-[35vh] h-[32vh] rounded-md" />

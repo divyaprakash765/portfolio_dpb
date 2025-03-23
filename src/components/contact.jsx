@@ -4,7 +4,7 @@ import "remixicon/fonts/remixicon.css"; // Import Remix Icons
 
 function Contact() {
     return (
-        <div className="w-full h-[100vh] bg-[#B8B8B8] text-black flex">
+        <div className="w-full h-[100vh] bg-zinc-200 text-black flex">
             <div className="left-side w-[16.5%] bg-[#EAB751] h-screen">
                 <img src="portfolio_web_img.png" className="w-[35vh] h-[32vh] rounded-md" />
                 <SideNav />
@@ -22,8 +22,8 @@ function Contact() {
                     </p>
 
                     {/* Contact Box */}
-                    <div className="bg-white p-8 rounded-lg bg-zinc-200 shadow-lg w-[50vw] text-center">
-                        <p className="text-gray-600 text-sm mb-6">
+                    <div className="bg-white p-8 rounded-lg bg-zinc-100 shadow-lg w-[50vw] text-center">
+                        <p className="text-gray-600 text-md mb-6">
                             Reach out to me via email or phone. Whether you have a project idea or just want to say hello, I'm always open to discussions!
                         </p>
 

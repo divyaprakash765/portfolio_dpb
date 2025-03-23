@@ -4,7 +4,7 @@ import Nav from "../template/nav.jsx";
 
 function Home() {
     return (
-      <div className="w-full min-h-screen bg-[#B8B8B8] text-black flex items-center justify-center">
+      <div className="w-full min-h-screen bg-zinc-200 text-black flex items-center justify-center">
         <div className="flex items-center justify-center gap-60">
           
           {/* First Half */}

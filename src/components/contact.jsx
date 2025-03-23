@@ -5,7 +5,7 @@ function Contact() {
     return (
         <div className="w-full h-[100vh] bg-[#B8B8B8] text-black flex">
             <div className="left-side w-[16.5%] bg-[#EAB751] h-screen">
-                <img src="public/portfolio_web_img.png" className="w-[35vh] h-[32vh] rounded-md" />
+                <img src="portfolio_web_img.png" className="w-[35vh] h-[32vh] rounded-md" />
                 <SideNav />
             </div>
       <div className="flex flex-col items-center gap-[10vh] text-black justify-center min-h-screen">

@@ -25,7 +25,7 @@ With a deep interest in problem-solving, I enjoy tackling complex coding challen
   
           {/* Second Half */}
           <div className="second-half flex items-center justify-center w-[50%]">
-            <img className="h-[70vh] w-[70vh] rounded-md" src="public/portfolio_web_img.png" alt="Portfolio Image"/>
+            <img className="h-[70vh] w-[70vh] rounded-md" src="portfolio_web_img.png" alt="Portfolio Image"/>
           <Nav/>
           </div>
           

@@ -4,7 +4,6 @@ import About from "./components/About"
 import Contact from "./components/contact"
 import Portfolio from "./components/portfolio"
 import Resume from "./components/Resume"
-import Testimonials from "./components/testimonial"
 import { Route,Routes } from "react-router-dom";
 import All from "./template/All"
 import Dsa from "./template/Dsa"
